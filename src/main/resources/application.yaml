@@ -1,18 +1,3 @@
 spring:
   application:
     name: "sb2-observability"
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "metrics"
-  metrics:
-    export:
-      stackdriver:
-        enabled: true
-        project-id: "YOUR_PROJECT_ID"
-        resource-type: "global"
-    enable:
-      jvm: true
-
