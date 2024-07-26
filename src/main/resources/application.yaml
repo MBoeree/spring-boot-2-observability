@@ -14,5 +14,13 @@ management:
         project-id: "YOUR_PROJECT_ID"
         resource-type: "global"
     enable:
+      tomcat: false
       jvm: true
+      process: false
+      hikaricp: false
+      system: true
+      jdbc: false
+      http: true
+      logback: false
+      spring: true
 
